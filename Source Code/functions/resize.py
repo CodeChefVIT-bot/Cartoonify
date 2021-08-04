@@ -1,4 +1,5 @@
-def img(hight,width):
+import cv2
+def img(img,height,width):
   multx = 600/width
   multy = 600/height
   k = min(multx, multy)

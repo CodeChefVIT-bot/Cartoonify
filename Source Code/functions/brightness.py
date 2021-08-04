@@ -1,3 +1,5 @@
+import numpy as np
+import cv2
 def adjust_brightness(image, brightness):
 	invGamma = 1.0 / brightness
 	table = np.array([((i / 255.0) ** invGamma) * 255
