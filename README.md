@@ -2,13 +2,17 @@
 </p>
 
 ## Cartoonify
-A python applet to add life and a cartoony aspect to your images.
+- A python applet to add life and a cartoony aspect to your images.
 ---
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
   [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
 
 ## Features
-- Insert list of features here
+- Some of the features implemented include:
+* Changing image brightness and contrast
+* Making the image edges marker like
+* Various filters such as moustache, eyepatch and monocle
+* Auto image enhancement
 
 ## Screenshots
 <img src="https://github.com/akshatvg/common-entry-test/raw/master/static/img/header.png" alt="Project Screenshots">
