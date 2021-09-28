@@ -42,7 +42,7 @@ def sendToServer(filename):
 
 def Webcam():
     webcm=int(input("What webcam do you want to use(Integers only):"))
-    cap=cv2.VideoCapture(webcm)    
+    cap=cv2.VideoCapture(webcm, cv2.CAP_DSHOW)    
     
     startTime=0;
     font=cv2.FONT_HERSHEY_COMPLEX
@@ -84,16 +84,14 @@ def UploadSave():
 typ=int(input("Enter 1 for uploading an image in PC, 2 for uploading through webcam"))
 if(typ==1):
     UploadSave()
-elif(typ==1):
+elif(typ==2):
     Webcam()
 
 
 
 
     
-webcm=int(input("What webcam do you want to use(Integers only):"))
-cap=cv2.VideoCapture(webcm)    
-cap.release()
+
 cv2.destroyAllWindows()
 
 
