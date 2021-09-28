@@ -18,15 +18,16 @@
 
 ## Instructions to run
 ```
-$ git clone https://github.com/CodeChefVIT/<Project>
+$ git clone https://github.com/CodeChefVIT/Cartoonify
 $ cd <Project>
 $ pip3 install -r requirements.txt
-$ python3 manage.py runserver
+$ python3 /Source Code/main.py
+$ python3 Applet.py
 ```
 
 ## Contributors
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
+- <a href="https://github.com/AdityaDeodeshmukh">Aditya Deodeshmukh</a>
+- <a href="https://github.com/deeppss">Deepu John</a>
 
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
