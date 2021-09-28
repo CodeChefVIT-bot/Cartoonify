@@ -47,4 +47,4 @@ def CartoonifyImage():
     cv2.imwrite("Image.jpg",cartoonimg)
     return send_file("Image.jpg",mimetype="image/jpeg")
 if __name__=='__main__':
-    app.run(debug=True,host="localhost",port=5000)
+    app.run(host="localhost",port=8080)
