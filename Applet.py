@@ -14,7 +14,7 @@ def sendToServer(filename):
     config["EyePatch"]=int(input("Do you want to add an eyepatch(1:Yes/0:No):"))
     config["Moustache"]=int(input("Do you want to add a Moustache(1:Yes/0:No):"))
 
-    url="http://localhost:5000/"
+    url="http://localhost:8080/"
     data = config
     files = [
         ('image', (filename, open(filename, 'rb'), 'application/octet')),
